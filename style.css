@@ -5,9 +5,18 @@
 }
 
 .carousel-item img {
-    height: 80vh;
+    height: 600px;
 }
 
 .h2-color {
     color: #4a4a4a;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 778px){
+    .carousel-item img {
+        object-fit: cover;
+    }
 }
