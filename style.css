@@ -26,15 +26,13 @@
 .bg-overlay {
     filter: brightness(50%);
 }
+.feedback-student-img {
+    height: 40px;
+    width: 40px;
+}
 
 
 /* media queries */
-@media only screen and (max-width: 576px){
-    .working-img{
-        max-height: 300px;
-        width: 100%;
-        object-fit: contain;
-    }
 
 @media only screen and (max-width: 778px){
     .carousel-item img {
